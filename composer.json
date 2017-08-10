@@ -1,0 +1,19 @@
+{
+    "name": "chenkby/base62",
+    "description": "base62加密解密",
+    "keywords": [
+        "base62","php"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "ChenGuanQun",
+            "email": "99912250@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "chenkby\\base62\\": "src/"
+        }
+    }
+}
