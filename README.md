@@ -1,12 +1,22 @@
 # base62
 base62加密解密
 
-#使用
+## 安装
 
-##加密
+添加到你的composer.json文件
 
-Base62::encode('string');
+```
+"chenkby/base62": "*"
+```
 
-##解密
-$code = Base62::encode('string');
-Base62::decode($code);
+## 使用
+
+##### 加密
+```php
+$code = Base62::encode('待解密文字')
+```
+
+###### 解密
+```php
+$string = Base62::decode($code);
+```
